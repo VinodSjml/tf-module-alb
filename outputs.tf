@@ -3,5 +3,5 @@ output "ALB_ARN" {
 }
 
 output "ALB_ADDRESS" {
-  value = aws_lb.alb.address
+  value = aws_lb.alb.dns_name
 }
